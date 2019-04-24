@@ -1,0 +1,48 @@
+2019-04-24 20:37:55,783 ERROR 36320 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find /list.tpl from G:\self-practice\hen-demo\app\view
+    at Map.resolve (G:\self-practice\hen-demo\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 36320
+hostname: pc1-hz20065563
+
+2019-04-24 20:37:58,876 ERROR 36320 [-/127.0.0.1/-/2ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find /list.tpl from G:\self-practice\hen-demo\app\view
+    at Map.resolve (G:\self-practice\hen-demo\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 36320
+hostname: pc1-hz20065563
+
+2019-04-24 20:40:47,643 ERROR 3340 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find list.tpl from G:\self-practice\hen-demo\app\view
+    at Map.resolve (G:\self-practice\hen-demo\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3340
+hostname: pc1-hz20065563
+
+2019-04-24 20:41:05,238 ERROR 3340 [-/127.0.0.1/-/4ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find list.tpl from G:\self-practice\hen-demo\app\view
+    at Map.resolve (G:\self-practice\hen-demo\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 3340
+hostname: pc1-hz20065563
+
