@@ -1,0 +1,474 @@
+2019-04-24 19:59:27,738 INFO 9304 [egg:logger] init all loggers with options: {"dir":"G:\\self-practice\\hen-demo\\logs\\egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-24 19:59:27,973 INFO 9304 [egg:core] dump config after load, 12ms
+2019-04-24 19:59:28,056 INFO 9304 [egg-watcher] Start watching: ["G:\\self-practice\\hen-demo\\app","G:\\self-practice\\hen-demo\\config","G:\\self-practice\\hen-demo\\mocks","G:\\self-practice\\hen-demo\\mocks_proxy","G:\\self-practice\\hen-demo\\app.js"]
+2019-04-24 19:59:28,056 INFO 9304 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app"
+2019-04-24 19:59:28,056 INFO 9304 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\config"
+2019-04-24 19:59:28,057 INFO 9304 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks"
+2019-04-24 19:59:28,057 INFO 9304 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks_proxy"
+2019-04-24 19:59:28,058 INFO 9304 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app.js"
+2019-04-24 19:59:28,058 INFO 9304 [egg-watcher:agent] watcher start success
+2019-04-24 19:59:28,069 INFO 9304 [egg:core] dump config after ready, 8ms
+2019-04-24 19:59:30,721 INFO 9304 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\public","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949953565952,"size":0,"atimeMs":1556107170720.2463,"mtimeMs":1556107170720.2463,"ctimeMs":1556107170720.2463,"birthtimeMs":1556107170720.2463,"atime":"2019-04-24T11:59:30.720Z","mtime":"2019-04-24T11:59:30.720Z","ctime":"2019-04-24T11:59:30.720Z","birthtime":"2019-04-24T11:59:30.720Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:02:33,208 INFO 9304 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\middleware","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1970324837000747,"size":0,"atimeMs":1556107353205.073,"mtimeMs":1556107353205.073,"ctimeMs":1556107353205.073,"birthtimeMs":1556107353205.073,"atime":"2019-04-24T12:02:33.205Z","mtime":"2019-04-24T12:02:33.205Z","ctime":"2019-04-24T12:02:33.205Z","birthtime":"2019-04-24T12:02:33.205Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:31:36,899 INFO 2024 [egg:logger] init all loggers with options: {"dir":"G:\\self-practice\\hen-demo\\logs\\egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-24 20:31:37,092 INFO 2024 [egg:core] dump config after load, 5ms
+2019-04-24 20:31:37,169 INFO 2024 [egg-watcher] Start watching: ["G:\\self-practice\\hen-demo\\app","G:\\self-practice\\hen-demo\\config","G:\\self-practice\\hen-demo\\mocks","G:\\self-practice\\hen-demo\\mocks_proxy","G:\\self-practice\\hen-demo\\app.js"]
+2019-04-24 20:31:37,169 INFO 2024 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app"
+2019-04-24 20:31:37,170 INFO 2024 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\config"
+2019-04-24 20:31:37,170 INFO 2024 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks"
+2019-04-24 20:31:37,170 INFO 2024 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks_proxy"
+2019-04-24 20:31:37,170 INFO 2024 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app.js"
+2019-04-24 20:31:37,171 INFO 2024 [egg-watcher:agent] watcher start success
+2019-04-24 20:31:37,188 INFO 2024 [egg:core] dump config after ready, 7ms
+2019-04-24 20:34:02,596 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883697939,"size":429,"atimeMs":1556109242565.1,"mtimeMs":1556109242565.5908,"ctimeMs":1556109242565.5908,"birthtimeMs":1556109242565.1,"atime":"2019-04-24T12:34:02.565Z","mtime":"2019-04-24T12:34:02.566Z","ctime":"2019-04-24T12:34:02.566Z","birthtime":"2019-04-24T12:34:02.565Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:02,598 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883697939,"size":429,"atimeMs":1556109242565.1,"mtimeMs":1556109242565.5908,"ctimeMs":1556109242565.5908,"birthtimeMs":1556109242565.1,"atime":"2019-04-24T12:34:02.565Z","mtime":"2019-04-24T12:34:02.566Z","ctime":"2019-04-24T12:34:02.566Z","birthtime":"2019-04-24T12:34:02.565Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:02,599 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109242565.1,"mtimeMs":1556109242565.1,"ctimeMs":1556109242565.1,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:02.565Z","mtime":"2019-04-24T12:34:02.565Z","ctime":"2019-04-24T12:34:02.565Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:02,620 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883697939,"size":429,"atimeMs":1556109242565.1,"mtimeMs":1556109242565.5908,"ctimeMs":1556109242617.2837,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:02.565Z","mtime":"2019-04-24T12:34:02.566Z","ctime":"2019-04-24T12:34:02.617Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:02,622 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109242617.2837,"mtimeMs":1556109242617.2837,"ctimeMs":1556109242617.2837,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:02.617Z","mtime":"2019-04-24T12:34:02.617Z","ctime":"2019-04-24T12:34:02.617Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:02,622 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:02,622 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:02,623 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883697939,"size":429,"atimeMs":1556109242565.1,"mtimeMs":1556109242565.5908,"ctimeMs":1556109242617.2837,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:02.565Z","mtime":"2019-04-24T12:34:02.566Z","ctime":"2019-04-24T12:34:02.617Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:02,623 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109242617.2837,"mtimeMs":1556109242617.2837,"ctimeMs":1556109242617.2837,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:02.617Z","mtime":"2019-04-24T12:34:02.617Z","ctime":"2019-04-24T12:34:02.617Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:02,624 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883697939,"size":429,"atimeMs":1556109242565.1,"mtimeMs":1556109242565.5908,"ctimeMs":1556109242617.2837,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:02.565Z","mtime":"2019-04-24T12:34:02.566Z","ctime":"2019-04-24T12:34:02.617Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:02,625 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:02,625 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109242617.2837,"mtimeMs":1556109242617.2837,"ctimeMs":1556109242617.2837,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:02.617Z","mtime":"2019-04-24T12:34:02.617Z","ctime":"2019-04-24T12:34:02.617Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:18,068 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396098,"size":424,"atimeMs":1556109258046.923,"mtimeMs":1556109258046.923,"ctimeMs":1556109258046.923,"birthtimeMs":1556109258046.923,"atime":"2019-04-24T12:34:18.047Z","mtime":"2019-04-24T12:34:18.047Z","ctime":"2019-04-24T12:34:18.047Z","birthtime":"2019-04-24T12:34:18.047Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:18,069 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109258046.923,"mtimeMs":1556109258046.923,"ctimeMs":1556109258046.923,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:18.047Z","mtime":"2019-04-24T12:34:18.047Z","ctime":"2019-04-24T12:34:18.047Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:18,070 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396098,"size":424,"atimeMs":1556109258046.923,"mtimeMs":1556109258046.923,"ctimeMs":1556109258046.923,"birthtimeMs":1556109258046.923,"atime":"2019-04-24T12:34:18.047Z","mtime":"2019-04-24T12:34:18.047Z","ctime":"2019-04-24T12:34:18.047Z","birthtime":"2019-04-24T12:34:18.047Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:18,094 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:18,094 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396098,"size":424,"atimeMs":1556109258046.923,"mtimeMs":1556109258046.923,"ctimeMs":1556109258089.4136,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:18.047Z","mtime":"2019-04-24T12:34:18.047Z","ctime":"2019-04-24T12:34:18.089Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:18,096 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109258090.4165,"mtimeMs":1556109258090.4165,"ctimeMs":1556109258090.4165,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:18.090Z","mtime":"2019-04-24T12:34:18.090Z","ctime":"2019-04-24T12:34:18.090Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:18,097 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:18,097 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396098,"size":424,"atimeMs":1556109258046.923,"mtimeMs":1556109258046.923,"ctimeMs":1556109258089.4136,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:18.047Z","mtime":"2019-04-24T12:34:18.047Z","ctime":"2019-04-24T12:34:18.089Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:18,098 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109258090.4165,"mtimeMs":1556109258090.4165,"ctimeMs":1556109258090.4165,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:18.090Z","mtime":"2019-04-24T12:34:18.090Z","ctime":"2019-04-24T12:34:18.090Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:18,099 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396098,"size":424,"atimeMs":1556109258046.923,"mtimeMs":1556109258046.923,"ctimeMs":1556109258089.4136,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:18.047Z","mtime":"2019-04-24T12:34:18.047Z","ctime":"2019-04-24T12:34:18.089Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:18,099 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:18,099 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109258090.4165,"mtimeMs":1556109258090.4165,"ctimeMs":1556109258090.4165,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:18.090Z","mtime":"2019-04-24T12:34:18.090Z","ctime":"2019-04-24T12:34:18.090Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:24,962 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883685388,"size":425,"atimeMs":1556109264951.2046,"mtimeMs":1556109264951.2046,"ctimeMs":1556109264951.2046,"birthtimeMs":1556109258046.923,"atime":"2019-04-24T12:34:24.951Z","mtime":"2019-04-24T12:34:24.951Z","ctime":"2019-04-24T12:34:24.951Z","birthtime":"2019-04-24T12:34:18.047Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:24,963 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883685388,"size":425,"atimeMs":1556109264951.2046,"mtimeMs":1556109264951.2046,"ctimeMs":1556109264951.2046,"birthtimeMs":1556109258046.923,"atime":"2019-04-24T12:34:24.951Z","mtime":"2019-04-24T12:34:24.951Z","ctime":"2019-04-24T12:34:24.951Z","birthtime":"2019-04-24T12:34:18.047Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:24,963 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109264951.2046,"mtimeMs":1556109264951.2046,"ctimeMs":1556109264951.2046,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:24.951Z","mtime":"2019-04-24T12:34:24.951Z","ctime":"2019-04-24T12:34:24.951Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:25,189 WARN 2024 [agent:development] reload worker because G:\self-practice\hen-demo\app\controller\home.js___jb_old___ rename
+2019-04-24 20:34:24,986 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883685388,"size":425,"atimeMs":1556109264951.2046,"mtimeMs":1556109264951.2046,"ctimeMs":1556109264981.788,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:24.951Z","mtime":"2019-04-24T12:34:24.951Z","ctime":"2019-04-24T12:34:24.982Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:24,986 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:24,987 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109264982.303,"mtimeMs":1556109264982.303,"ctimeMs":1556109264982.303,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:24.982Z","mtime":"2019-04-24T12:34:24.982Z","ctime":"2019-04-24T12:34:24.982Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:24,987 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:24,988 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883685388,"size":425,"atimeMs":1556109264951.2046,"mtimeMs":1556109264951.2046,"ctimeMs":1556109264981.788,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:24.951Z","mtime":"2019-04-24T12:34:24.951Z","ctime":"2019-04-24T12:34:24.982Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:24,988 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883685388,"size":425,"atimeMs":1556109264951.2046,"mtimeMs":1556109264951.2046,"ctimeMs":1556109264981.788,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:24.951Z","mtime":"2019-04-24T12:34:24.951Z","ctime":"2019-04-24T12:34:24.982Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:34:24,988 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109264982.303,"mtimeMs":1556109264982.303,"ctimeMs":1556109264982.303,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:24.982Z","mtime":"2019-04-24T12:34:24.982Z","ctime":"2019-04-24T12:34:24.982Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:24,989 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109264982.303,"mtimeMs":1556109264982.303,"ctimeMs":1556109264982.303,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:34:24.982Z","mtime":"2019-04-24T12:34:24.982Z","ctime":"2019-04-24T12:34:24.982Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:34:24,989 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:34:28,167 WARN 2024 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-24 20:36:45,659 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":844424930276641,"size":424,"atimeMs":1556109405623.3835,"mtimeMs":1556109405626.3906,"ctimeMs":1556109405626.3906,"birthtimeMs":1556109405623.3835,"atime":"2019-04-24T12:36:45.623Z","mtime":"2019-04-24T12:36:45.626Z","ctime":"2019-04-24T12:36:45.626Z","birthtime":"2019-04-24T12:36:45.623Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:36:45,660 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109405623.3835,"mtimeMs":1556109405623.3835,"ctimeMs":1556109405623.3835,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:36:45.623Z","mtime":"2019-04-24T12:36:45.623Z","ctime":"2019-04-24T12:36:45.623Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:36:45,662 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":844424930276641,"size":424,"atimeMs":1556109405623.3835,"mtimeMs":1556109405626.3906,"ctimeMs":1556109405626.3906,"birthtimeMs":1556109405623.3835,"atime":"2019-04-24T12:36:45.623Z","mtime":"2019-04-24T12:36:45.626Z","ctime":"2019-04-24T12:36:45.626Z","birthtime":"2019-04-24T12:36:45.623Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:36:45,681 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:36:45,682 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109405673.5203,"mtimeMs":1556109405673.5203,"ctimeMs":1556109405673.5203,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:36:45.674Z","mtime":"2019-04-24T12:36:45.674Z","ctime":"2019-04-24T12:36:45.674Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:36:45,682 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1407374883685388,"size":425,"atimeMs":1556109264951.2046,"mtimeMs":1556109264951.2046,"ctimeMs":1556109405680.538,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:34:24.951Z","mtime":"2019-04-24T12:34:24.951Z","ctime":"2019-04-24T12:36:45.681Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:36:45,691 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:36:45,692 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":844424930276641,"size":424,"atimeMs":1556109405623.3835,"mtimeMs":1556109405626.3906,"ctimeMs":1556109405684.5518,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:36:45.623Z","mtime":"2019-04-24T12:36:45.626Z","ctime":"2019-04-24T12:36:45.685Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:36:45,693 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109405684.5518,"mtimeMs":1556109405684.5518,"ctimeMs":1556109405684.5518,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:36:45.685Z","mtime":"2019-04-24T12:36:45.685Z","ctime":"2019-04-24T12:36:45.685Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:36:45,693 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:36:45,693 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109405684.5518,"mtimeMs":1556109405684.5518,"ctimeMs":1556109405684.5518,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:36:45.685Z","mtime":"2019-04-24T12:36:45.685Z","ctime":"2019-04-24T12:36:45.685Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:28,121 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396044,"size":0,"atimeMs":1556109448118.8496,"mtimeMs":1556109448118.8496,"ctimeMs":1556109448118.8496,"birthtimeMs":1556109448118.8496,"atime":"2019-04-24T12:37:28.119Z","mtime":"2019-04-24T12:37:28.119Z","ctime":"2019-04-24T12:37:28.119Z","birthtime":"2019-04-24T12:37:28.119Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:28,121 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109448118.8496,"mtimeMs":1556109448118.8496,"ctimeMs":1556109448118.8496,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:28.119Z","mtime":"2019-04-24T12:37:28.119Z","ctime":"2019-04-24T12:37:28.119Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:28,147 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396044,"size":0,"atimeMs":1556109448118.8496,"mtimeMs":1556109448118.8496,"ctimeMs":1556109448145.9211,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:37:28.119Z","mtime":"2019-04-24T12:37:28.119Z","ctime":"2019-04-24T12:37:28.146Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:28,147 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","stat":{"dev":2088,"mode":33206,"nlink":0,"uid":0,"gid":0,"rdev":0,"ino":844424930276641,"size":424,"atimeMs":1556109405623.3835,"mtimeMs":1556109405626.3906,"ctimeMs":1556109448143.916,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:36:45.623Z","mtime":"2019-04-24T12:36:45.626Z","ctime":"2019-04-24T12:37:28.144Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:28,150 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109448146.9246,"mtimeMs":1556109448146.9246,"ctimeMs":1556109448146.9246,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:28.147Z","mtime":"2019-04-24T12:37:28.147Z","ctime":"2019-04-24T12:37:28.147Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:28,150 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:37:28,150 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396044,"size":0,"atimeMs":1556109448118.8496,"mtimeMs":1556109448118.8496,"ctimeMs":1556109448145.9211,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:37:28.119Z","mtime":"2019-04-24T12:37:28.119Z","ctime":"2019-04-24T12:37:28.146Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:28,153 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849860396044,"size":0,"atimeMs":1556109448118.8496,"mtimeMs":1556109448118.8496,"ctimeMs":1556109448145.9211,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:37:28.119Z","mtime":"2019-04-24T12:37:28.119Z","ctime":"2019-04-24T12:37:28.146Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:28,153 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109448146.9246,"mtimeMs":1556109448146.9246,"ctimeMs":1556109448146.9246,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:28.147Z","mtime":"2019-04-24T12:37:28.147Z","ctime":"2019-04-24T12:37:28.147Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:28,153 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:37:28,153 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109448146.9246,"mtimeMs":1556109448146.9246,"ctimeMs":1556109448146.9246,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:28.147Z","mtime":"2019-04-24T12:37:28.147Z","ctime":"2019-04-24T12:37:28.147Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:50,656 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1125899906987297,"size":197,"atimeMs":1556109470629.7214,"mtimeMs":1556109470629.7214,"ctimeMs":1556109470629.7214,"birthtimeMs":1556109470629.7214,"atime":"2019-04-24T12:37:50.630Z","mtime":"2019-04-24T12:37:50.630Z","ctime":"2019-04-24T12:37:50.630Z","birthtime":"2019-04-24T12:37:50.630Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:50,656 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109470629.7214,"mtimeMs":1556109470629.7214,"ctimeMs":1556109470629.7214,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:50.630Z","mtime":"2019-04-24T12:37:50.630Z","ctime":"2019-04-24T12:37:50.630Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:50,657 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1125899906987297,"size":197,"atimeMs":1556109470629.7214,"mtimeMs":1556109470629.7214,"ctimeMs":1556109470629.7214,"birthtimeMs":1556109470629.7214,"atime":"2019-04-24T12:37:50.630Z","mtime":"2019-04-24T12:37:50.630Z","ctime":"2019-04-24T12:37:50.630Z","birthtime":"2019-04-24T12:37:50.630Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:50,671 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1125899906987297,"size":197,"atimeMs":1556109470629.7214,"mtimeMs":1556109470629.7214,"ctimeMs":1556109470665.2822,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:37:50.630Z","mtime":"2019-04-24T12:37:50.630Z","ctime":"2019-04-24T12:37:50.665Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:50,672 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:37:50,673 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:37:50,673 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109470666.272,"mtimeMs":1556109470666.272,"ctimeMs":1556109470666.272,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:50.666Z","mtime":"2019-04-24T12:37:50.666Z","ctime":"2019-04-24T12:37:50.666Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:50,673 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1125899906987297,"size":197,"atimeMs":1556109470629.7214,"mtimeMs":1556109470629.7214,"ctimeMs":1556109470665.2822,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:37:50.630Z","mtime":"2019-04-24T12:37:50.630Z","ctime":"2019-04-24T12:37:50.665Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:50,674 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1125899906987297,"size":197,"atimeMs":1556109470629.7214,"mtimeMs":1556109470629.7214,"ctimeMs":1556109470665.2822,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:37:50.630Z","mtime":"2019-04-24T12:37:50.630Z","ctime":"2019-04-24T12:37:50.665Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:37:50,674 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:37:50,674 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109470666.272,"mtimeMs":1556109470666.272,"ctimeMs":1556109470666.272,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:50.666Z","mtime":"2019-04-24T12:37:50.666Z","ctime":"2019-04-24T12:37:50.666Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:37:50,675 INFO 2024 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109470666.272,"mtimeMs":1556109470666.272,"ctimeMs":1556109470666.272,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:37:50.666Z","mtime":"2019-04-24T12:37:50.666Z","ctime":"2019-04-24T12:37:50.666Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:38:22,303 INFO 27416 [egg:logger] init all loggers with options: {"dir":"G:\\self-practice\\hen-demo\\logs\\egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-24 20:38:22,504 INFO 27416 [egg:core] dump config after load, 6ms
+2019-04-24 20:38:22,574 INFO 27416 [egg-watcher] Start watching: ["G:\\self-practice\\hen-demo\\app","G:\\self-practice\\hen-demo\\config","G:\\self-practice\\hen-demo\\mocks","G:\\self-practice\\hen-demo\\mocks_proxy","G:\\self-practice\\hen-demo\\app.js"]
+2019-04-24 20:38:22,574 INFO 27416 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app"
+2019-04-24 20:38:22,575 INFO 27416 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\config"
+2019-04-24 20:38:22,575 INFO 27416 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks"
+2019-04-24 20:38:22,575 INFO 27416 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks_proxy"
+2019-04-24 20:38:22,576 INFO 27416 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app.js"
+2019-04-24 20:38:22,576 INFO 27416 [egg-watcher:agent] watcher start success
+2019-04-24 20:38:22,591 INFO 27416 [egg:core] dump config after ready, 5ms
+2019-04-24 20:40:25,789 INFO 27416 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\view\\index.html","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:40:25,791 INFO 27416 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\view\\index.tpl","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":844424930276640,"size":311,"atimeMs":1556109056080.9573,"mtimeMs":1556109056080.9573,"ctimeMs":1556109625786.6372,"birthtimeMs":1556109049199.142,"atime":"2019-04-24T12:30:56.081Z","mtime":"2019-04-24T12:30:56.081Z","ctime":"2019-04-24T12:40:25.787Z","birthtime":"2019-04-24T12:30:49.199Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:40:25,792 INFO 27416 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\view","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813829895,"size":0,"atimeMs":1556109625786.6372,"mtimeMs":1556109625786.6372,"ctimeMs":1556109625786.6372,"birthtimeMs":1556109025663.5923,"atime":"2019-04-24T12:40:25.787Z","mtime":"2019-04-24T12:40:25.787Z","ctime":"2019-04-24T12:40:25.787Z","birthtime":"2019-04-24T12:30:25.664Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:40:40,741 INFO 35748 [egg:logger] init all loggers with options: {"dir":"G:\\self-practice\\hen-demo\\logs\\egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-24 20:40:40,982 INFO 35748 [egg:core] dump config after load, 7ms
+2019-04-24 20:40:41,055 INFO 35748 [egg-watcher] Start watching: ["G:\\self-practice\\hen-demo\\app","G:\\self-practice\\hen-demo\\config","G:\\self-practice\\hen-demo\\mocks","G:\\self-practice\\hen-demo\\mocks_proxy","G:\\self-practice\\hen-demo\\app.js"]
+2019-04-24 20:40:41,055 INFO 35748 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app"
+2019-04-24 20:40:41,055 INFO 35748 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\config"
+2019-04-24 20:40:41,055 INFO 35748 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks"
+2019-04-24 20:40:41,055 INFO 35748 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks_proxy"
+2019-04-24 20:40:41,056 INFO 35748 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app.js"
+2019-04-24 20:40:41,056 INFO 35748 [egg-watcher:agent] watcher start success
+2019-04-24 20:40:41,076 INFO 35748 [egg:core] dump config after ready, 10ms
+2019-04-24 20:41:03,530 WARN 35748 [agent:development] reload worker because G:\self-practice\hen-demo\app\controller\home.js___jb_old___ rename
+2019-04-24 20:41:03,310 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813829907,"size":467,"atimeMs":1556109663284.9468,"mtimeMs":1556109663284.9468,"ctimeMs":1556109663284.9468,"birthtimeMs":1556109663284.9468,"atime":"2019-04-24T12:41:03.285Z","mtime":"2019-04-24T12:41:03.285Z","ctime":"2019-04-24T12:41:03.285Z","birthtime":"2019-04-24T12:41:03.285Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:41:03,312 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813829907,"size":467,"atimeMs":1556109663284.9468,"mtimeMs":1556109663284.9468,"ctimeMs":1556109663284.9468,"birthtimeMs":1556109663284.9468,"atime":"2019-04-24T12:41:03.285Z","mtime":"2019-04-24T12:41:03.285Z","ctime":"2019-04-24T12:41:03.285Z","birthtime":"2019-04-24T12:41:03.285Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:41:03,313 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109663284.9468,"mtimeMs":1556109663284.9468,"ctimeMs":1556109663284.9468,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:41:03.285Z","mtime":"2019-04-24T12:41:03.285Z","ctime":"2019-04-24T12:41:03.285Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:41:03,322 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813829907,"size":467,"atimeMs":1556109663284.9468,"mtimeMs":1556109663284.9468,"ctimeMs":1556109663321.611,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:41:03.285Z","mtime":"2019-04-24T12:41:03.285Z","ctime":"2019-04-24T12:41:03.322Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:41:03,323 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:41:03,325 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109663321.611,"mtimeMs":1556109663321.611,"ctimeMs":1556109663321.611,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:41:03.322Z","mtime":"2019-04-24T12:41:03.322Z","ctime":"2019-04-24T12:41:03.322Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:41:03,326 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_tmp___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:41:03,326 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813829907,"size":467,"atimeMs":1556109663284.9468,"mtimeMs":1556109663284.9468,"ctimeMs":1556109663321.611,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:41:03.285Z","mtime":"2019-04-24T12:41:03.285Z","ctime":"2019-04-24T12:41:03.322Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:41:03,326 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109663321.611,"mtimeMs":1556109663321.611,"ctimeMs":1556109663321.611,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:41:03.322Z","mtime":"2019-04-24T12:41:03.322Z","ctime":"2019-04-24T12:41:03.322Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:41:03,328 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js","stat":{"dev":2088,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813829907,"size":467,"atimeMs":1556109663284.9468,"mtimeMs":1556109663284.9468,"ctimeMs":1556109663321.611,"birthtimeMs":1556106539238.163,"atime":"2019-04-24T12:41:03.285Z","mtime":"2019-04-24T12:41:03.285Z","ctime":"2019-04-24T12:41:03.322Z","birthtime":"2019-04-24T11:48:59.238Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-04-24 20:41:03,329 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"G:\\self-practice\\hen-demo\\app\\controller","stat":{"dev":2088,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":2251799813712369,"size":0,"atimeMs":1556109663321.611,"mtimeMs":1556109663321.611,"ctimeMs":1556109663321.611,"birthtimeMs":1556106501914.736,"atime":"2019-04-24T12:41:03.322Z","mtime":"2019-04-24T12:41:03.322Z","ctime":"2019-04-24T12:41:03.322Z","birthtime":"2019-04-24T11:48:21.915Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-04-24 20:41:03,329 INFO 35748 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"G:\\self-practice\\hen-demo\\app\\controller\\home.js___jb_old___","remove":true,"isDirectory":false,"isFile":false}
+2019-04-24 20:41:06,507 WARN 35748 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-24 20:41:17,058 INFO 21660 [egg:logger] init all loggers with options: {"dir":"G:\\self-practice\\hen-demo\\logs\\egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-04-24 20:41:17,257 INFO 21660 [egg:core] dump config after load, 6ms
+2019-04-24 20:41:17,330 INFO 21660 [egg-watcher] Start watching: ["G:\\self-practice\\hen-demo\\app","G:\\self-practice\\hen-demo\\config","G:\\self-practice\\hen-demo\\mocks","G:\\self-practice\\hen-demo\\mocks_proxy","G:\\self-practice\\hen-demo\\app.js"]
+2019-04-24 20:41:17,330 INFO 21660 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app"
+2019-04-24 20:41:17,330 INFO 21660 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\config"
+2019-04-24 20:41:17,331 INFO 21660 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks"
+2019-04-24 20:41:17,331 INFO 21660 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\mocks_proxy"
+2019-04-24 20:41:17,331 INFO 21660 [egg-watcher] Start watching: "G:\\self-practice\\hen-demo\\app.js"
+2019-04-24 20:41:17,332 INFO 21660 [egg-watcher:agent] watcher start success
+2019-04-24 20:41:17,352 INFO 21660 [egg:core] dump config after ready, 10ms
+2019-04-24 21:35:57,576 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 97544ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 21:39:45,051 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87453ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 21:43:33,120 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88062ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 21:47:19,597 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 86468ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 21:51:07,716 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88110ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 21:54:57,915 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 90193ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 21:58:45,062 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87137ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:02:34,169 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 89081ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:06:23,035 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88854ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:12:10,593 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87546ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:15:59,631 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 89027ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:19:46,779 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87139ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:23:37,204 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 90400ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:27:24,174 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 86960ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:31:11,606 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87416ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:35:59,062 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87443ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:39:48,162 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 89090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:43:37,142 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:47:25,148 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:51:12,561 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87402ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:55:01,566 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88995ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 22:58:49,607 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:02:39,179 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 89556ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:06:26,797 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87613ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:10:14,847 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88042ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:14:02,087 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87230ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:17:51,145 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 89046ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:21:40,127 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88967ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:25:28,908 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88771ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:29:15,586 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 86671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:33:02,879 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 87271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:36:51,880 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88990ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:40:41,074 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 89180ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:44:29,103 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:48:17,156 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88041ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:52:05,649 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 88477ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
+2019-04-24 23:55:52,602 ERROR 21660 nodejs.ClusterClientNoResponseError: client no response in 86930ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (G:\self-practice\hen-demo\node_modules\cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 21660
+hostname: pc1-hz20065563
+
