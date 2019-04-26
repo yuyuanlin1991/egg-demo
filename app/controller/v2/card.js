@@ -9,7 +9,7 @@ class UserController extends Controller {
     }
     //get /:id
     async show(ctx){
-        this.ctx.body={
+        ctx.body={
             data:ctx.params.id+' show'
         }
     }

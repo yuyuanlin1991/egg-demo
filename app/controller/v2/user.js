@@ -32,6 +32,13 @@ class UserController extends Controller {
             data:ctx.params.id+' destory'
         }
     }
+
+    //delete /login
+    async login(ctx){
+        ctx.body={
+            data:ctx.request.body.name+' login'
+        }
+    }
 }
 
 module.exports = UserController;

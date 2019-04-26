@@ -1,0 +1,30 @@
+2019-04-26 11:50:55,914 ERROR 38516 [-/127.0.0.1/-/6ms POST /api/v2/users/login] nodejs.TypeError: Cannot read property 'name' of undefined
+    at UserController.login (G:\self-practice\hen-demo\app\controller\v2\user.js:39:27)
+    at Object.callFn (G:\self-practice\hen-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (G:\self-practice\hen-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\self-practice\hen-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (G:\self-practice\hen-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (G:\self-practice\hen-demo\node_modules\koa-compose\index.js:44:32)
+    at next (G:\self-practice\hen-demo\node_modules\koa-compose\index.js:45:18)
+    at G:\self-practice\hen-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (G:\self-practice\hen-demo\node_modules\koa-compose\index.js:44:32)
+    at G:\self-practice\hen-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 38516
+hostname: pc1-hz20065563
+
+2019-04-26 11:52:20,469 ERROR 38516 [-/127.0.0.1/-/0ms POST /api/v2/users/login] nodejs.TypeError: Cannot read property 'name' of undefined
+    at UserController.login (G:\self-practice\hen-demo\app\controller\v2\user.js:39:27)
+    at Object.callFn (G:\self-practice\hen-demo\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (G:\self-practice\hen-demo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (G:\self-practice\hen-demo\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (G:\self-practice\hen-demo\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (G:\self-practice\hen-demo\node_modules\koa-compose\index.js:44:32)
+    at next (G:\self-practice\hen-demo\node_modules\koa-compose\index.js:45:18)
+    at G:\self-practice\hen-demo\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (G:\self-practice\hen-demo\node_modules\koa-compose\index.js:44:32)
+    at G:\self-practice\hen-demo\node_modules\koa-compose\index.js:36:12
+
+pid: 38516
+hostname: pc1-hz20065563
+
