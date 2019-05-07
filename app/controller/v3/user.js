@@ -33,7 +33,7 @@ class UserController extends Controller {
         }
     }
 
-    //delete /login
+    //post /login
     async login(ctx){
         ctx.body={
             data:ctx.request.body.name+' login'
