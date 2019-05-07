@@ -6,3 +6,11 @@
 2019-04-26 11:52:33,156 INFO 25096 [Timer] G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43647845ms at 2019-04-27 00:00:01.001
 2019-04-26 11:52:32,960 INFO 22360 [egg-schedule]: register schedule G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
 2019-04-26 11:52:32,960 INFO 22360 [egg-schedule]: register schedule G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-26 13:46:49,533 INFO 20228 [Timer] G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 36790469ms at 2019-04-27 00:00:00.002
+2019-04-26 13:46:49,534 INFO 20228 [Timer] G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 36791467ms at 2019-04-27 00:00:01.001
+2019-04-26 13:46:49,325 INFO 24156 [egg-schedule]: register schedule G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-04-26 13:46:49,325 INFO 24156 [egg-schedule]: register schedule G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-07 20:02:37,163 INFO 21416 [egg-schedule]: register schedule G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-07 20:02:37,163 INFO 21416 [egg-schedule]: register schedule G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-07 20:02:37,750 INFO 21316 [Timer] G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 14242252ms at 2019-05-08 00:00:00.002
+2019-05-07 20:02:37,750 INFO 21316 [Timer] G:\self-practice\hen-demo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 14243250ms at 2019-05-08 00:00:01.000

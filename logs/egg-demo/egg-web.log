@@ -24,3 +24,53 @@
 2019-04-26 11:52:33,125 INFO 22360 [egg:core] dump config after load, 5ms
 2019-04-26 11:52:33,141 INFO 22360 [egg-watcher:application] watcher start success
 2019-04-26 11:52:33,149 INFO 22360 [egg:core] dump config after ready, 6ms
+2019-04-26 12:35:25,816 WARN 22360 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-26 12:35:25,817 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 12:39:10,622 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 12:43:00,913 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 12:47:50,919 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 12:51:39,575 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 12:55:31,188 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 12:59:20,578 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:03:10,736 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:08:31,215 WARN 22360 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-26 13:08:31,215 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:12:20,886 WARN 22360 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-26 13:12:20,887 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:16:10,895 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:20:02,126 WARN 22360 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-26 13:20:02,127 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:24:22,918 WARN 22360 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-26 13:24:22,918 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:28:13,140 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:32:03,950 WARN 22360 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-26 13:32:03,950 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:35:54,165 WARN 22360 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 13:46:49,275 INFO 24156 [egg:logger] init all loggers with options: {"dir":"G:\\self-practice\\hen-demo\\logs\\egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-26 13:46:49,326 INFO 24156 [egg-multipart] stream mode enable
+2019-04-26 13:46:49,450 INFO 24156 [egg-static] starting static serve /public/ -> G:\self-practice\hen-demo\app\public
+2019-04-26 13:46:49,453 INFO 24156 [egg-security] use methodnoallow middleware
+2019-04-26 13:46:49,454 INFO 24156 [egg-security] use noopen middleware
+2019-04-26 13:46:49,455 INFO 24156 [egg-security] use nosniff middleware
+2019-04-26 13:46:49,456 INFO 24156 [egg-security] use xssProtection middleware
+2019-04-26 13:46:49,456 INFO 24156 [egg-security] use xframe middleware
+2019-04-26 13:46:49,457 INFO 24156 [egg-security] use dta middleware
+2019-04-26 13:46:49,457 INFO 24156 [egg-security] compose 6 middlewares into one security middleware
+2019-04-26 13:46:49,506 INFO 24156 [egg:core] dump config after load, 29ms
+2019-04-26 13:46:49,519 INFO 24156 [egg-watcher:application] watcher start success
+2019-04-26 13:46:49,528 INFO 24156 [egg:core] dump config after ready, 7ms
+2019-04-26 15:11:19,021 INFO 24156 [egg-view-nunjucks] loading templates from ["G:\\self-practice\\hen-demo\\app\\view"]
+2019-05-07 20:02:37,125 INFO 21416 [egg:logger] init all loggers with options: {"dir":"G:\\self-practice\\hen-demo\\logs\\egg-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-07 20:02:37,164 INFO 21416 [egg-multipart] stream mode enable
+2019-05-07 20:02:37,660 INFO 21416 [egg-static] starting static serve /public/ -> G:\self-practice\hen-demo\app\public
+2019-05-07 20:02:37,669 INFO 21416 [egg-security] use methodnoallow middleware
+2019-05-07 20:02:37,670 INFO 21416 [egg-security] use noopen middleware
+2019-05-07 20:02:37,672 INFO 21416 [egg-security] use nosniff middleware
+2019-05-07 20:02:37,672 INFO 21416 [egg-security] use xssProtection middleware
+2019-05-07 20:02:37,673 INFO 21416 [egg-security] use xframe middleware
+2019-05-07 20:02:37,674 INFO 21416 [egg-security] use dta middleware
+2019-05-07 20:02:37,674 INFO 21416 [egg-security] compose 6 middlewares into one security middleware
+2019-05-07 20:02:37,710 INFO 21416 [egg:core] dump config after load, 16ms
+2019-05-07 20:02:37,723 INFO 21416 [egg-watcher:application] watcher start success
+2019-05-07 20:02:37,744 INFO 21416 [egg:core] dump config after ready, 19ms
+2019-05-07 20:03:06,505 INFO 21416 [egg-view-nunjucks] loading templates from ["G:\\self-practice\\hen-demo\\app\\view"]

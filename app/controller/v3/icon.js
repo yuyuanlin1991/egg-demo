@@ -1,6 +1,4 @@
-const Controller = require('egg').Controller;
-
-class UserController extends Controller {
+class CardController extends Controller {
     //get /
     async index() {
         this.ctx.body={
@@ -34,4 +32,4 @@ class UserController extends Controller {
     }
 }
 
-module.exports = UserController;
+module.exports = CardController;

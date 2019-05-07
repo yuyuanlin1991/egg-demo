@@ -6,7 +6,7 @@
  */
 module.exports = app => {
     const { router, controller } = app;
-    let card = router.namespace('/api/v2/m/cards');
-    card.get('/', controller.v2.card.index);
-    card.get('/:id',controller.v2.card.show);
+    let card = router.namespace('/api/v3/m/cards');
+    card.get('/', controller.v3.card.index);
+    card.get('/:id',controller.v3.card.show);
 };

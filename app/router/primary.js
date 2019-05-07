@@ -5,12 +5,12 @@
  */
 module.exports = app => {
     const { router, controller } = app;
-    let card = router.namespace('/api/v2/cards');
-    card.get('/', controller.v2.card.index);
-    card.get('/:id',controller.v2.card.show);
+    let card = router.namespace('/api/v3/cards');
+    card.get('/', controller.v3.card.index);
+    card.get('/:id',controller.v3.card.show);
 
-    let user = router.namespace('/api/v2/users');
-    user.get('/', controller.v2.user.index);
-    user.get('/:id',controller.v2.user.show);
-    user.post('/login',controller.v2.user.login);
+    let user = router.namespace('/api/v3/users');
+    user.get('/', controller.v3.user.index);
+    user.get('/:id',controller.v3.user.show);
+    user.post('/login',controller.v3.user.login);
 };
